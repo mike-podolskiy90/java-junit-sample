@@ -87,5 +87,6 @@ public class RateServiceTest {
         StaticService.getMultiplicator();
 
         assertThat(result, is(expected));
+
     }
 }
