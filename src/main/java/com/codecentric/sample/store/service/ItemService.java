@@ -48,5 +48,8 @@ public class ItemService {
         return StringUtils.upperCase(item.getName());
     }
 
-
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
