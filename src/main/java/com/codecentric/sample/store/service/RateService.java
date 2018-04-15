@@ -18,4 +18,8 @@ public class RateService {
         return rate;
     }
 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
