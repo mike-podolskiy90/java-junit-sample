@@ -61,7 +61,7 @@ public class ItemServiceTest {
         // Then
         //
         verify(itemRepository, times(1)).findById("it1");
-        assertThat(result, is("ITEM 1"));
+        assertThat(result, is("ITEM 11"));
     }
 
     @Test
